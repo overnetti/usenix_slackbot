@@ -34,7 +34,7 @@ For more information, visit: https://medium.com/applied-data-science/how-to-buil
 
 1. 
 
-#### Dependencies for development purposes
+#### Dependencies
 
 1. Python 3.8 or later
 2. ngrok: https://ngrok.com/download
