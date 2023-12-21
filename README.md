@@ -34,6 +34,17 @@ For more information, visit: https://medium.com/applied-data-science/how-to-buil
 
 1. 
 
-#### Execute from IDE or Command line (only for development purposes)
+#### Dependencies for development purposes
 
-1. 
+1. Python 3.8 or later
+2. `pip install slack`
+3. `pip install os`
+4. `pip install pathlib`
+5. `pip install python-dotenv`
+6. `pip install flask`
+7. `pip install slackeventsapi`
+8. `pip install sys`
+9. `pip install requests`
+10. `pip install time`
+11. `pip install urllib.request`
+12. `pip install bs4`
