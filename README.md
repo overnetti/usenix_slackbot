@@ -12,6 +12,7 @@ Datasources:
 - User will need to use the slash commands in a DM with the bot for the program to execute.
 - If the channel already exists, the bot will print out the channel name and let the user know it exists before skipping it.
 - Slackbot will need to be set up in the workspace and will need to be allowed permissions to read messages, write messages, create channels, and update topics and descriptions.
+- The bot has only ever ran on a local ngrok server.
 - This project does not include the .env file and will need to be created.
 
 
@@ -32,7 +33,15 @@ For more information, visit: https://medium.com/applied-data-science/how-to-buil
 
 #### Execution
 
-1. 
+1. Launch ngrok by running the following command in the terminal: `ngrok http 3000`
+2. Copy the URL in **Forwarding** (up until the .io)
+3. Navigate to your app in api.slack.com
+4. Navigate to the **Event Subscriptions** page and click the **Enable Events** slider to turn it on.
+5. In the **Request** URL field, enter the URL provided by ngrok to expose your application to the internet.
+6. In the left menu, click **Install App**, click **Install to Workspace**, and click **Allow**. The bot will need to be re-installed to the workspace each time updates like these are made.
+7. Now, return to the Terminal and navigate to the location of the `slash-cmd` python file for the specific event of interest.
+8. Run the `slash-cmd` file. A server should boot up on your Terminal and the slash command for the specific event can now be used in a DM with the bot by users in the workspace.
+9. Open a DM with the bot and type **/create_channels [link_to_program_pg]** to run the channel creation script. Type **/set_topic_desc [link_to_program_pg]** to set the topics and descriptions for each channel.
 
 #### Dependencies
 
