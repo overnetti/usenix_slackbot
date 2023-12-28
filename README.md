@@ -1,6 +1,9 @@
 # Slackbot for USENIX Workspace set-up
 
 ## Introduction
+
+This is a replicated copy of my work at USENIX. This does not accurately represent private data at USENIX.
+
 This Slackbot scrapes the technical sessions pages or program pages of specific USENIX events in order to create uniquely formatted channels, topics, and descriptions in a specific Slack event workspace. This bot was created for the USENIX Association, an advanced computing systems nonprofit organization, known for organizing conferences and publishing research. This Slackbot served the following of their events: NSDI, PEPR, USENIX ATC, OSDI, SOUPS, and USENIX Security. Prior to this bot, the task of setting up the event workspace for a conference was assigned to a team member for completion within 2 weeks. Team members have to compile the data from the program pages or technical sessions pages manually and copy-paste the information into a Google Sheet. The data is concatenated to create channels, topics, and descriptions and team members copy-paste this information one by one into the workspace. The process is tedious, as the topics and descriptions can only be added once the channel is created. This project saves the USENIX team ~400 hours of manual labor annually by automating the process.
 
 Datasources:
