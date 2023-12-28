@@ -63,7 +63,7 @@ For more information, visit: https://medium.com/applied-data-science/how-to-buil
 13. `pip install bs4`
 
 ## Future Improvements
-1. Project should be hosted on the cloud instead of locally, so that the service is always available for teammembers to use.
+1. Project should be hosted on the cloud instead of locally, so that the service is always available for team members to use.
 2. Data could be compiled into a SQL database with web scraping and stored for bot usage.
 3. Bot should determine which iteration of itself to use based on conference link received.
 4. If the bot is being continuously hosted on a server, further features could be added like listening to specific events and alerting staff.
